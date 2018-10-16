@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C31D3991F93B59400AAF5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C31D3981F93B59400AAF5CE /* Assets.xcassets */; };
+		3CF9428F1F9367D600448887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF9428E1F9367D600448887 /* AppDelegate.swift */; };
+		3CF942911F9367D600448887 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF942901F9367D600448887 /* MainViewController.swift */; };
+		3CF942971F9367D600448887 /* Kappa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CF942951F9367D600448887 /* Kappa.xcdatamodeld */; };
+		3CF9429C1F9367D600448887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF9429A1F9367D600448887 /* LaunchScreen.storyboard */; };
+		3CF942A71F9367D600448887 /* KappaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF942A61F9367D600448887 /* KappaTests.swift */; };
+		3CF942B21F9367D600448887 /* KappaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF942B11F9367D600448887 /* KappaUITests.swift */; };
+		3CF942D11F93685400448887 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3CF942C21F93685400448887 /* index.html */; };
+		3CF942D21F93685400448887 /* page-1-bizcard---home-copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 3CF942C41F93685400448887 /* page-1-bizcard---home-copy.html */; };
+		3CF942D31F93685400448887 /* page-1-bizcard---home-copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF942C61F93685400448887 /* page-1-bizcard---home-copy.png */; };
+		3CF942D41F93685400448887 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3CF942C81F93685400448887 /* index.html */; };
+		3CF942D51F93685400448887 /* page-1-bizcard---add-card.html in Resources */ = {isa = PBXBuildFile; fileRef = 3CF942CA1F93685400448887 /* page-1-bizcard---add-card.html */; };
+		3CF942D61F93685400448887 /* page-1-crop.html in Resources */ = {isa = PBXBuildFile; fileRef = 3CF942CB1F93685400448887 /* page-1-crop.html */; };
+		3CF942D71F93685400448887 /* page-1-atrafe-man.html in Resources */ = {isa = PBXBuildFile; fileRef = 3CF942CC1F93685400448887 /* page-1-atrafe-man.html */; };
+		3CF942D81F93685400448887 /* page-1-bizcard---add-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF942CE1F93685400448887 /* page-1-bizcard---add-card.png */; };
+		3CF942D91F93685400448887 /* page-1-crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF942CF1F93685400448887 /* page-1-crop.png */; };
+		3CF942DA1F93685400448887 /* page-1-atrafe-man.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF942D01F93685400448887 /* page-1-atrafe-man.png */; };
+		3CF942DD1F9368AA00448887 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF942DC1F9368AA00448887 /* Extensions.swift */; };
+		3CF942E11F936AF200448887 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF942E01F936AF200448887 /* HomeViewController.swift */; };
+		3CF942ED1F936ECC00448887 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF942EC1F936ECC00448887 /* AddViewController.swift */; };
+		3CF942F21F93760A00448887 /* CardSlideShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF942F11F93760A00448887 /* CardSlideShowView.swift */; };
+		3CF942F41F9376BD00448887 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF942F31F9376BD00448887 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF942A31F9367D600448887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF942831F9367D600448887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF9428A1F9367D600448887;
+			remoteInfo = Kappa;
+		};
+		3CF942AE1F9367D600448887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF942831F9367D600448887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF9428A1F9367D600448887;
+			remoteInfo = Kappa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C31D3981F93B59400AAF5CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CF9428B1F9367D600448887 /* Kappa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kappa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF9428E1F9367D600448887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CF942901F9367D600448887 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3CF942961F9367D600448887 /* Kappa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kappa.xcdatamodel; sourceTree = "<group>"; };
+		3CF9429B1F9367D600448887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CF9429D1F9367D600448887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF942A21F9367D600448887 /* KappaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KappaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF942A61F9367D600448887 /* KappaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KappaTests.swift; sourceTree = "<group>"; };
+		3CF942A81F9367D600448887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF942AD1F9367D600448887 /* KappaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KappaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF942B11F9367D600448887 /* KappaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KappaUITests.swift; sourceTree = "<group>"; };
+		3CF942B31F9367D600448887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF942C21F93685400448887 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		3CF942C41F93685400448887 /* page-1-bizcard---home-copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "page-1-bizcard---home-copy.html"; sourceTree = "<group>"; };
+		3CF942C61F93685400448887 /* page-1-bizcard---home-copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page-1-bizcard---home-copy.png"; sourceTree = "<group>"; };
+		3CF942C81F93685400448887 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		3CF942CA1F93685400448887 /* page-1-bizcard---add-card.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "page-1-bizcard---add-card.html"; sourceTree = "<group>"; };
+		3CF942CB1F93685400448887 /* page-1-crop.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "page-1-crop.html"; sourceTree = "<group>"; };
+		3CF942CC1F93685400448887 /* page-1-atrafe-man.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "page-1-atrafe-man.html"; sourceTree = "<group>"; };
+		3CF942CE1F93685400448887 /* page-1-bizcard---add-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page-1-bizcard---add-card.png"; sourceTree = "<group>"; };
+		3CF942CF1F93685400448887 /* page-1-crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page-1-crop.png"; sourceTree = "<group>"; };
+		3CF942D01F93685400448887 /* page-1-atrafe-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page-1-atrafe-man.png"; sourceTree = "<group>"; };
+		3CF942DC1F9368AA00448887 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3CF942E01F936AF200448887 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3CF942EC1F936ECC00448887 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3CF942F11F93760A00448887 /* CardSlideShowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSlideShowView.swift; sourceTree = "<group>"; };
+		3CF942F31F9376BD00448887 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF942881F9367D600448887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF9429F1F9367D600448887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF942AA1F9367D600448887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CF942821F9367D600448887 = {
+			isa = PBXGroup;
+			children = (
+				3CF942BF1F93685400448887 /* Document */,
+				3CF9428D1F9367D600448887 /* Kappa */,
+				3CF942A51F9367D600448887 /* KappaTests */,
+				3CF942B01F9367D600448887 /* KappaUITests */,
+				3CF9428C1F9367D600448887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF9428C1F9367D600448887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF9428B1F9367D600448887 /* Kappa.app */,
+				3CF942A21F9367D600448887 /* KappaTests.xctest */,
+				3CF942AD1F9367D600448887 /* KappaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF9428D1F9367D600448887 /* Kappa */ = {
+			isa = PBXGroup;
+			children = (
+				3C31D3981F93B59400AAF5CE /* Assets.xcassets */,
+				3CF942F01F9375C000448887 /* Views */,
+				3CF942DE1F93695B00448887 /* ViewControllers */,
+				3CF942DB1F9368A400448887 /* Helpers */,
+				3CF9428E1F9367D600448887 /* AppDelegate.swift */,
+				3CF9429A1F9367D600448887 /* LaunchScreen.storyboard */,
+				3CF9429D1F9367D600448887 /* Info.plist */,
+				3CF942951F9367D600448887 /* Kappa.xcdatamodeld */,
+			);
+			path = Kappa;
+			sourceTree = "<group>";
+		};
+		3CF942A51F9367D600448887 /* KappaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942A61F9367D600448887 /* KappaTests.swift */,
+				3CF942A81F9367D600448887 /* Info.plist */,
+			);
+			path = KappaTests;
+			sourceTree = "<group>";
+		};
+		3CF942B01F9367D600448887 /* KappaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942B11F9367D600448887 /* KappaUITests.swift */,
+				3CF942B31F9367D600448887 /* Info.plist */,
+			);
+			path = KappaUITests;
+			sourceTree = "<group>";
+		};
+		3CF942BF1F93685400448887 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942C01F93685400448887 /* Design */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		3CF942C01F93685400448887 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942C11F93685400448887 /* Home */,
+				3CF942C71F93685400448887 /* Add */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		3CF942C11F93685400448887 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942C21F93685400448887 /* index.html */,
+				3CF942C31F93685400448887 /* links */,
+				3CF942C51F93685400448887 /* preview */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3CF942C31F93685400448887 /* links */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942C41F93685400448887 /* page-1-bizcard---home-copy.html */,
+			);
+			path = links;
+			sourceTree = "<group>";
+		};
+		3CF942C51F93685400448887 /* preview */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942C61F93685400448887 /* page-1-bizcard---home-copy.png */,
+			);
+			path = preview;
+			sourceTree = "<group>";
+		};
+		3CF942C71F93685400448887 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942C81F93685400448887 /* index.html */,
+				3CF942C91F93685400448887 /* links */,
+				3CF942CD1F93685400448887 /* preview */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		3CF942C91F93685400448887 /* links */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942CA1F93685400448887 /* page-1-bizcard---add-card.html */,
+				3CF942CB1F93685400448887 /* page-1-crop.html */,
+				3CF942CC1F93685400448887 /* page-1-atrafe-man.html */,
+			);
+			path = links;
+			sourceTree = "<group>";
+		};
+		3CF942CD1F93685400448887 /* preview */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942CE1F93685400448887 /* page-1-bizcard---add-card.png */,
+				3CF942CF1F93685400448887 /* page-1-crop.png */,
+				3CF942D01F93685400448887 /* page-1-atrafe-man.png */,
+			);
+			path = preview;
+			sourceTree = "<group>";
+		};
+		3CF942DB1F9368A400448887 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942DC1F9368AA00448887 /* Extensions.swift */,
+				3CF942F31F9376BD00448887 /* Constants.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		3CF942DE1F93695B00448887 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942DF1F936ACD00448887 /* TabViewControllers */,
+				3CF942901F9367D600448887 /* MainViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3CF942DF1F936ACD00448887 /* TabViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942E01F936AF200448887 /* HomeViewController.swift */,
+				3CF942EC1F936ECC00448887 /* AddViewController.swift */,
+			);
+			name = TabViewControllers;
+			sourceTree = "<group>";
+		};
+		3CF942F01F9375C000448887 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CF942F11F93760A00448887 /* CardSlideShowView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF9428A1F9367D600448887 /* Kappa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF942B61F9367D600448887 /* Build configuration list for PBXNativeTarget "Kappa" */;
+			buildPhases = (
+				3CF942871F9367D600448887 /* Sources */,
+				3CF942881F9367D600448887 /* Frameworks */,
+				3CF942891F9367D600448887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kappa;
+			productName = Kappa;
+			productReference = 3CF9428B1F9367D600448887 /* Kappa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CF942A11F9367D600448887 /* KappaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF942B91F9367D600448887 /* Build configuration list for PBXNativeTarget "KappaTests" */;
+			buildPhases = (
+				3CF9429E1F9367D600448887 /* Sources */,
+				3CF9429F1F9367D600448887 /* Frameworks */,
+				3CF942A01F9367D600448887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF942A41F9367D600448887 /* PBXTargetDependency */,
+			);
+			name = KappaTests;
+			productName = KappaTests;
+			productReference = 3CF942A21F9367D600448887 /* KappaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CF942AC1F9367D600448887 /* KappaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF942BC1F9367D600448887 /* Build configuration list for PBXNativeTarget "KappaUITests" */;
+			buildPhases = (
+				3CF942A91F9367D600448887 /* Sources */,
+				3CF942AA1F9367D600448887 /* Frameworks */,
+				3CF942AB1F9367D600448887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF942AF1F9367D600448887 /* PBXTargetDependency */,
+			);
+			name = KappaUITests;
+			productName = KappaUITests;
+			productReference = 3CF942AD1F9367D600448887 /* KappaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF942831F9367D600448887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Nima;
+				TargetAttributes = {
+					3CF9428A1F9367D600448887 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MVPJ76FLJR;
+						ProvisioningStyle = Automatic;
+					};
+					3CF942A11F9367D600448887 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MVPJ76FLJR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CF9428A1F9367D600448887;
+					};
+					3CF942AC1F9367D600448887 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MVPJ76FLJR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CF9428A1F9367D600448887;
+					};
+				};
+			};
+			buildConfigurationList = 3CF942861F9367D600448887 /* Build configuration list for PBXProject "Kappa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CF942821F9367D600448887;
+			productRefGroup = 3CF9428C1F9367D600448887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF9428A1F9367D600448887 /* Kappa */,
+				3CF942A11F9367D600448887 /* KappaTests */,
+				3CF942AC1F9367D600448887 /* KappaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF942891F9367D600448887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF942D41F93685400448887 /* index.html in Resources */,
+				3CF9429C1F9367D600448887 /* LaunchScreen.storyboard in Resources */,
+				3CF942D11F93685400448887 /* index.html in Resources */,
+				3CF942D71F93685400448887 /* page-1-atrafe-man.html in Resources */,
+				3CF942D31F93685400448887 /* page-1-bizcard---home-copy.png in Resources */,
+				3CF942DA1F93685400448887 /* page-1-atrafe-man.png in Resources */,
+				3CF942D21F93685400448887 /* page-1-bizcard---home-copy.html in Resources */,
+				3CF942D81F93685400448887 /* page-1-bizcard---add-card.png in Resources */,
+				3CF942D61F93685400448887 /* page-1-crop.html in Resources */,
+				3CF942D91F93685400448887 /* page-1-crop.png in Resources */,
+				3C31D3991F93B59400AAF5CE /* Assets.xcassets in Resources */,
+				3CF942D51F93685400448887 /* page-1-bizcard---add-card.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF942A01F9367D600448887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF942AB1F9367D600448887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF942871F9367D600448887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF942E11F936AF200448887 /* HomeViewController.swift in Sources */,
+				3CF942F21F93760A00448887 /* CardSlideShowView.swift in Sources */,
+				3CF942911F9367D600448887 /* MainViewController.swift in Sources */,
+				3CF942ED1F936ECC00448887 /* AddViewController.swift in Sources */,
+				3CF942971F9367D600448887 /* Kappa.xcdatamodeld in Sources */,
+				3CF9428F1F9367D600448887 /* AppDelegate.swift in Sources */,
+				3CF942DD1F9368AA00448887 /* Extensions.swift in Sources */,
+				3CF942F41F9376BD00448887 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF9429E1F9367D600448887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF942A71F9367D600448887 /* KappaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF942A91F9367D600448887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF942B21F9367D600448887 /* KappaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CF942A41F9367D600448887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF9428A1F9367D600448887 /* Kappa */;
+			targetProxy = 3CF942A31F9367D600448887 /* PBXContainerItemProxy */;
+		};
+		3CF942AF1F9367D600448887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF9428A1F9367D600448887 /* Kappa */;
+			targetProxy = 3CF942AE1F9367D600448887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CF9429A1F9367D600448887 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF9429B1F9367D600448887 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CF942B41F9367D600448887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CF942B51F9367D600448887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CF942B71F9367D600448887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVPJ76FLJR;
+				INFOPLIST_FILE = Kappa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NimaKarimipour.kappa.Kappa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3CF942B81F9367D600448887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVPJ76FLJR;
+				INFOPLIST_FILE = Kappa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NimaKarimipour.kappa.Kappa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3CF942BA1F9367D600448887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MVPJ76FLJR;
+				INFOPLIST_FILE = KappaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NimaKarimipour.kappa.KappaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kappa.app/Kappa";
+			};
+			name = Debug;
+		};
+		3CF942BB1F9367D600448887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MVPJ76FLJR;
+				INFOPLIST_FILE = KappaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NimaKarimipour.kappa.KappaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kappa.app/Kappa";
+			};
+			name = Release;
+		};
+		3CF942BD1F9367D600448887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MVPJ76FLJR;
+				INFOPLIST_FILE = KappaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NimaKarimipour.kappa.KappaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kappa;
+			};
+			name = Debug;
+		};
+		3CF942BE1F9367D600448887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MVPJ76FLJR;
+				INFOPLIST_FILE = KappaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NimaKarimipour.kappa.KappaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kappa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF942861F9367D600448887 /* Build configuration list for PBXProject "Kappa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF942B41F9367D600448887 /* Debug */,
+				3CF942B51F9367D600448887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF942B61F9367D600448887 /* Build configuration list for PBXNativeTarget "Kappa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF942B71F9367D600448887 /* Debug */,
+				3CF942B81F9367D600448887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF942B91F9367D600448887 /* Build configuration list for PBXNativeTarget "KappaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF942BA1F9367D600448887 /* Debug */,
+				3CF942BB1F9367D600448887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF942BC1F9367D600448887 /* Build configuration list for PBXNativeTarget "KappaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF942BD1F9367D600448887 /* Debug */,
+				3CF942BE1F9367D600448887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CF942951F9367D600448887 /* Kappa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CF942961F9367D600448887 /* Kappa.xcdatamodel */,
+			);
+			currentVersion = 3CF942961F9367D600448887 /* Kappa.xcdatamodel */;
+			path = Kappa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3CF942831F9367D600448887 /* Project object */;
+}
